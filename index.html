@@ -3,6 +3,7 @@
   <head>
     <title>Registration Form</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <h1>Registration Form</h1>
@@ -29,15 +30,15 @@
       </fieldset>
       <fieldset>
         <label
-          ><input type="radio" name="account-type" class="inline" /> Personal
+          ><input type="radio" name="account-type" /> Personal
           Account</label
         >
         <label
-          ><input type="radio" name="account-type" class="inline" /> Business
+          ><input type="radio" name="account-type" /> Business
           Account</label
         >
         <label>
-          <input type="checkbox" name="terms" class="inline" required /> I
+          <input type="checkbox" name="terms" class="" required /> I
           accept the
           <a href="https://www.freecodecamp.org/news/terms-of-service/"
             >terms and conditions</a
@@ -72,7 +73,7 @@
           ></textarea>
         </label>
       </fieldset>
-      <input type="submit" value="Submit" />
+      <input class="btn" type="submit" value="Submit" />
     </form>
   </body>
 </html>

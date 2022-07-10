@@ -12,8 +12,8 @@
   </head>
   <body class="body">
     <div class="form-container drop-shadow-2xl">
+      <i class="icon fa-solid fa-building-columns"></i>
       <h1 class="heading">
-        <i class="icon fa-solid fa-building-columns"></i>
         welcome to Muffin Bank
       </h1>
       <p class="para-1">Sign up for a free account!</p>
@@ -59,41 +59,34 @@
           <label class="label"
             ><input class="radio-btn mr-2" type="radio" name="account-type" />
             Business Account</label
-          >
-          <label class="label">
-            <input
-              type="checkbox"
-              name="terms"
-              class="checkbox mr-2"
-              required
-            />
-            I accept the
-            <a href="https://www.freecodecamp.org/news/terms-of-service/"
-              >terms and conditions</a
             >
-          </label>
-        </fieldset>
-        <fieldset class="fieldset-3">
-          <label class="label">Upload a profile picture: </label
-          ><input class="" type="file" name="file" />
-          <label class="label">How did you hear about us?</label>
-          <select name="referrer">
-            <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-
-          <label class="label">Provide a bio:</label>
-          <textarea
-            name="bio"
-            rows="3"
-            cols="30"
-            placeholder="I like coding on the beach..."
-          ></textarea>
-        </fieldset>
-        <input
+          </fieldset>
+          <fieldset class="fieldset-3">
+            <label class="label mb-6">Upload a profile picture: </label
+              ><input class="" type="file" name="file" />
+              <label class="label mb-6">How did you hear about us?</label>
+              <select name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">News</option>
+                <option value="2">YouTube</option>
+                <option value="3">Family/Friends</option>
+                <option value="4">Other</option>
+              </select>
+              
+            </fieldset>
+            <label class="label">
+              <input
+                type="checkbox"
+                name="terms"
+                class="checkbox mr-2"
+                required
+              />
+              I accept the
+              <a href="https://www.freecodecamp.org/news/terms-of-service/"
+                >terms and conditions</a
+              >
+            </label>
+            <input
           type="submit"
           value="Submit"
           class="btn bg-gradient-to-r from-indigo-500 to-pink-200"

@@ -19,7 +19,7 @@ body {
 .heading {
     color: #fafafa;
     background-color: #333;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: capitalize;
 }
 
@@ -29,7 +29,8 @@ body {
 } */
 
 .icon {
-    display: block;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .form-container {
@@ -65,7 +66,7 @@ width: 50%;
 .label {
 
     display: block;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 0 0;
     color: #78716c;
 }
 
@@ -73,7 +74,7 @@ width: 50%;
     border-radius: 36px;
     /* gradient from purple to pink */
 
-    padding: 1rem .5rem;
+    padding: .5rem;
     margin: 1rem 0;
     width: 100%;
     /* display: flex; */

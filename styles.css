@@ -24,10 +24,6 @@ body {
 }
 
 
-/* .form {
-
-} */
-
 .icon {
     text-align: center;
     font-size: 3rem;
@@ -49,7 +45,8 @@ width: 50%;
     /* position: absolute; */
     height: 10rem;
     width: 100%;
-    /* background-color: #292524; */
+    background-color: #8b5cf6;
+    /* #fbcfe8 */
     z-index: 1;
     /* cover image in container */
 }
@@ -100,7 +97,7 @@ width: 50%;
 }
 
 .last-note a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #8b5cf6;
 }
 

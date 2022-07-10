@@ -5,7 +5,6 @@ body {
     padding: 0;
     background-color: #fee2e2;
     color: #292524;
-    /* tailwind zinc-600 */
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -23,6 +22,9 @@ body {
     text-transform: capitalize;
 }
 
+.para-1 {
+    margin-top: 5rem;
+}
 
 .icon {
     text-align: center;
@@ -30,25 +32,27 @@ body {
     font-size: 3rem;
 }
 
-.form-container {
+.section-container {
 background-color: #f8fafc;
 border-radius: 16px;
 margin: .5rem auto;
-padding: 2rem 2rem .5rem 2rem;
 /* box-border */
-z-index: -1;
+z-index: -999;
 width: 50%;
-/* position: relative; */
+position: relative;
 
 }
 
-.accent-img-div {
-    /* position: absolute; */
-    height: 10rem;
+.container {
+    padding: 0 2rem;
+}
+
+.img-div {
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    height: 15%;
     width: 100%;
-    /* background-color: #8b5cf6; */
-    /* #fbcfe8 */
-    z-index: 1;
+    z-index: -1;
     /* cover image in container */
 }
 
@@ -56,15 +60,16 @@ width: 50%;
     /* bg-slate-50 */
     border: none;
     border-bottom: 2px solid #333;
-    background-color: #f8fafc;
-    /* border-color: zinc-300; */
+    -moz-background-color: transparent;
+    -webkit-background-color: transparent;
+    background-color: transparent;
     width: 100%;
 }
 
 .label {
 
     display: block;
-    margin: 1.5rem 0 0 0;
+    margin: 2.5rem 0 1rem;
     color: #78716c;
 }
 
@@ -92,21 +97,13 @@ width: 50%;
 } */
 
 .last-note {
-    margin-bottom: 2rem;
+    padding-bottom: 5rem;
     text-align: center;
     font-size: large;
 }
 
-
-
-/* .fieldset-1 {} */
-
-/* .fieldset-2 {} */
-
-/* .fieldset-3 {} */
-
-/* .textarea {
-
-}  */
+.link {
+    cursor: pointer;
+}
 
 

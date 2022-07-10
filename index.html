@@ -10,90 +10,98 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body class="body">
-    <!-- <div class="accent-img-div"></div> -->
-    <div class="form-container drop-shadow-2xl">
-      <h1 class="heading bg-gradient-to-r from-indigo-700 to-pink-300">
-        <i class="icon fa-solid fa-rocket"></i><br>
-        welcome to MoonMail.
-      </h1>
-      <p class="para-1">Get started with a free account!</p>
+    <div class="section-container drop-shadow-2xl">
+      <div class="img-div bg-gradient-to-r from-indigo-700 to-pink-300"></div>
 
-      <form action="https://register-demo.freecodecamp.org" class=".form">
-        <fieldset class="fieldset-1">
-          <label class="label">First Name: </label>
+      <div class="container">
+        <h1 class="heading">
+          <i class="icon fa-solid fa-rocket"></i><br />
+          welcome to MoonMail
+        </h1>
+        <p class="para-1">Get started with a free account!</p>
+      </div>
 
-          <input class="fields" type="text" name="first-name" required />
+      <div class="container">
+        <form action="" class=".form">
+          <fieldset class="fieldset-1">
+            <label class="label">First Name: </label>
 
-          <label class="label">Last Name: </label>
+            <input class="fields" type="text" name="first-name" required />
 
-          <input class="fields" type="text" name="last-name" required />
+            <label class="label">Last Name: </label>
 
-          <label class="label">Email: </label>
+            <input class="fields" type="text" name="last-name" required />
 
-          <input class="fields" type="email" name="email" required />
+            <label class="label">Email: </label>
 
-          <label class="label">Create a Password: </label>
+            <input class="fields" type="email" name="email" required />
 
-          <input
-            class="fields"
-            type="password"
-            name="password"
-            pattern="[a-z0-5]{8,}"
-            required
-          />
-          <label class="label">Confirm Password: </label>
+            <label class="label">Create a Password: </label>
 
-          <input
-            class="fields"
-            type="password"
-            name="password"
-            pattern="[a-z0-5]{8,}"
-            required
-          />
-        </fieldset>
-        <fieldset class="fieldsset-2">
-          <label class="label"
-            ><input class="radio-btn mr-2" type="radio" name="account-type" />
-            Personal Account</label
-          >
-          <label class="label"
-            ><input class="radio-btn mr-2" type="radio" name="account-type" />
-            Business Account</label
+            <input
+              class="fields"
+              type="password"
+              name="password"
+              pattern="[a-z0-5]{8,}"
+              required
+            />
+            <label class="label">Confirm Password: </label>
+
+            <input
+              class="fields"
+              type="password"
+              name="password"
+              pattern="[a-z0-5]{8,}"
+              required
+            />
+          </fieldset>
+          <fieldset class="fieldsset-2">
+            <label class="label"
+              ><input class="radio-btn mr-2" type="radio" name="account-type" />
+              Personal Account</label
+            >
+            <label class="label"
+              ><input class="radio-btn mr-2" type="radio" name="account-type" />
+              Business Account</label
             >
           </fieldset>
           <fieldset class="fieldset-3">
-            <label class="label mb-6">Upload a profile picture: </label
-              ><input class="" type="file" name="file" />
-              <label class="label mb-6">How did you hear about us?</label>
-              <select name="referrer">
-                <option value="">(select one)</option>
-                <option value="1">News</option>
-                <option value="2">YouTube</option>
-                <option value="3">Family/Friends</option>
-                <option value="4">Other</option>
-              </select>
-              
-            </fieldset>
-            <label class="label mb-6">
-              <input
-                type="checkbox"
-                name="terms"
-                class="checkbox mr-2"
-                required
-              />
-              I accept the
-              <a href="https://www.freecodecamp.org/news/terms-of-service/"
-                >terms and conditions</a
-              >
-            </label>
+            <label class="label">Upload a profile picture: </label
+            ><input class="" type="file" name="file" />
+            <label class="label">How did you hear about us?</label>
+            <select name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">News</option>
+              <option value="2">YouTube</option>
+              <option value="3">Family/Friends</option>
+              <option value="4">Other</option>
+            </select>
+          </fieldset>
+          <label class="label">
             <input
-          type="submit"
-          value="Submit"
-          class="btn bg-gradient-to-r from-indigo-700 to-pink-300 mb-6"
-        />
-        <p class="last-note">Already have an account? <a class="text-purple-700" href="#">Log in</a></p>
-      </form>
+              type="checkbox"
+              name="terms"
+              class="checkbox mr-2"
+              required
+            />
+            I accept the
+            <a href="https://www.freecodecamp.org/news/terms-of-service/"
+              >terms and conditions</a
+            >
+          </label>
+          <input
+            type="submit"
+            value="Submit"
+            class="btn bg-gradient-to-r from-indigo-700 to-pink-300 mb-6"
+          />
+          <p class="last-note">
+            Already have an account?
+            <a class="text-purple-700 link" href="#">Log in</a>
+          </p>
+        </form>
+      </div>
     </div>
   </body>
 </html>

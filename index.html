@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title class="text-">Registration Form</title>
+    <title>Registration Form</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="p-0 m-0 mx-auto w-1/2 text-base text-zinc-500">
-    <div name="form-container" class="bg-slate-50 drop-shadow-2xl rounded-2xl m-2 px-8 pt-8 pb-2 box-border">
-
-      <h1 class="text-center text-2xl">Registration Form</h1>
-      <p class="text-center py-4">Sign up for a free account!</p>
+  <body class="p-0 m-0 mx-auto w-1/2 text-base text-zinc-600">
+    <div
+      name="form-container"
+      class="bg-slate-50 drop-shadow-2xl rounded-2xl m-2 px-8 pt-8 pb-2 box-border -z-10 relative"
+    >
+    <div class="h-16 w-16
+    bg-zinc-800 z-10 absolute"></div>
+      <h1 class="text-center text-2xl text-white flex justify-center items-center mb-60">Registration Form</h1>
+   
       
+      <p class="text-center py-4">Sign up for a free account!</p>
+
       <form action="https://register-demo.freecodecamp.org" class="">
         <fieldset>
           <label>First Name: </label
-          ><input type="text" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full" name="first-name" required />
+          ><input
+            type="text"
+            class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full"
+            name="first-name"
+            required
+          />
           <label>Last Name: </label
-          ><input type="text" name="last-name" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full" required />
+          ><input
+            type="text"
+            name="last-name"
+            class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full"
+            required
+          />
           <label>Email: </label
-          ><input type="email" name="email" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full" required />
+          ><input
+            type="email"
+            name="email"
+            class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full"
+            required
+          />
           <label>Create a Password: </label>
           <input
             type="password"
@@ -39,14 +60,16 @@
         </fieldset>
         <fieldset>
           <label
-            ><input class="mr-2" type="radio" name="account-type" /> Personal Account</label
+            ><input class="mr-2" type="radio" name="account-type" /> Personal
+            Account</label
           >
           <label
-            ><input class="mr-2" type="radio" name="account-type" /> Business Account</label
+            ><input class="mr-2" type="radio" name="account-type" /> Business
+            Account</label
           >
           <label class="mt-8">
-            <input class="mr-2" type="checkbox" name="terms"
-            required /> I accept the
+            <input class="mr-2" type="checkbox" name="terms" required /> I
+            accept the
             <a href="https://www.freecodecamp.org/news/terms-of-service/"
               >terms and conditions</a
             >
@@ -57,7 +80,7 @@
           ><input type="file" name="file" />
           <label>Input your age (years): </label
           ><input type="number" name="age" min="13" max="120" />
-  
+
           <label>How did you hear about us?</label>
           <select name="referrer">
             <option value="">(select one)</option>
@@ -66,7 +89,7 @@
             <option value="3">freeCodeCamp Forum</option>
             <option value="4">Other</option>
           </select>
-  
+
           <label>Provide a bio:</label>
           <textarea
             name="bio"
@@ -75,9 +98,12 @@
             placeholder="I like coding on the beach..."
           ></textarea>
         </fieldset>
-        <input class= "bg-gradient-to-r from-purple-400 to-fuchsia-300 px-4 py-2 my-8 rounded-full w-full flex justify-center border-none uppercase text-white text-lg" 
-        type="submit" 
-        value="Submit" />
+        <input
+          class="bg-gradient-to-r from-purple-400 to-fuchsia-300 px-4 py-2 my-8 rounded-full w-full flex justify-center border-none uppercase text-white text-lg"
+          type="submit"
+          value="Submit"
+        />
+        <p class="text-center mb-12">Already have an account? <a href="#">Log in</a></p>
       </form>
     </div>
   </body>

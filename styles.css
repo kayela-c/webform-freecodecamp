@@ -18,14 +18,15 @@ body {
 
 .heading {
     color: #fafafa;
-    background-color: #333;
     font-size: 1.7rem;
+    padding: 3rem 0;
     text-transform: capitalize;
 }
 
 
 .icon {
     text-align: center;
+    display: block;
     font-size: 3rem;
 }
 
@@ -45,7 +46,7 @@ width: 50%;
     /* position: absolute; */
     height: 10rem;
     width: 100%;
-    background-color: #8b5cf6;
+    /* background-color: #8b5cf6; */
     /* #fbcfe8 */
     z-index: 1;
     /* cover image in container */
@@ -96,10 +97,7 @@ width: 50%;
     font-size: large;
 }
 
-.last-note a {
-    /* text-decoration: underline; */
-    color: #8b5cf6;
-}
+
 
 /* .fieldset-1 {} */
 

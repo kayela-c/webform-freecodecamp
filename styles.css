@@ -1,68 +1,87 @@
 
 body {
-    background-color: lightcoral;
+
     margin: 0 auto;
     padding: 0;
-    color: gray;
+    background-color: #fee2e2;
+    color: #292524;
     /* tailwind zinc-600 */
     font-size: 1rem;
     line-height: 1.5;
 }
 
-.block-label {
+.heading,
+.para-1 {
     margin: 1rem 0;
+    text-align: center;
 }
 
-.form {
-    background-color: aquamarine;
+.heading {
+    color: #fafafa;
+    background-color: #333;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+/* .form {
+
+} */
+
+.icon {
+    display: block;
 }
 
 .form-container {
-/* dropshadow */
-/* bg-slate-50 */
+background-color: #f8fafc;
 border-radius: 16px;
-margin: .5rem;
+margin: .5rem auto;
 padding: 2rem 2rem .5rem 2rem;
 /* box-border */
 z-index: -1;
 width: 50%;
-position: relative;
-background-color: blueviolet;
+/* position: relative; */
+
 }
 
 .accent-img-div {
-    position: absolute;
+    /* position: absolute; */
     height: 10rem;
     width: 100%;
+    /* background-color: #292524; */
+    z-index: 1;
     /* cover image in container */
 }
 
 .fields {
     /* bg-slate-50 */
     border: none;
-    border: 2px solid gray;
+    border-bottom: 2px solid #333;
+    background-color: #f8fafc;
     /* border-color: zinc-300; */
     width: 100%;
-    display: block;
 }
 
 .label {
-    color: #333;
+
+    display: block;
+    margin: 1.5rem 0;
+    color: #78716c;
 }
 
 .btn {
-    border-radius: 50%;
+    border-radius: 36px;
     /* gradient from purple to pink */
-    background: red;
-    padding: .5rem 1rem;
-    margin: 2rem;
+
+    padding: 1rem .5rem;
+    margin: 1rem 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     border: none;
     text-transform: uppercase;
     color: white;
-    font-size: large;
+    font-size: 1.3rem;
 }
 
 /* .checkbox {
@@ -75,13 +94,17 @@ background-color: blueviolet;
 
 .last-note {
     margin-bottom: 4rem;
-    text-align: cente;
+    text-align: center;
 }
 
-/* .fieldset-1 {}
+/* .fieldset-1 {} */
 
-.fieldset-2 {}
+/* .fieldset-2 {} */
 
-.fieldset-3 {}
+/* .fieldset-3 {} */
 
-.textarea {} */
+/* .textarea {
+
+}  */
+
+

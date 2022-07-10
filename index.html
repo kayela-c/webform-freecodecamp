@@ -5,26 +5,35 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/cd5c1369a3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <div name="form-container" class="form-container">
-      <h1
-        class="text-center text-2xl text-white flex justify-center items-center mb-60"
-      >
-        Registration Form
+  <body class="body">
+    <div class="form-container drop-shadow-2xl">
+      <h1 class="heading">
+        <i class="icon fa-solid fa-building-columns"></i>
+        welcome to Muffin Bank
       </h1>
-
-      <p class="text-center py-4">Sign up for a free account!</p>
+      <p class="para-1">Sign up for a free account!</p>
 
       <form action="https://register-demo.freecodecamp.org" class=".form">
         <fieldset class="fieldset-1">
-          <label class="label">First Name: </label
-          ><input type="text" name="first-name" required />
-          <label class="label">Last Name: </label
-          ><input type="text" name="last-name" required /> 
-          <label class="label">Email: </label
-          ><input type="email" name="email" required />
+          <label class="label">First Name: </label>
+
+          <input class="fields" type="text" name="first-name" required />
+
+          <label class="label">Last Name: </label>
+
+          <input class="fields" type="text" name="last-name" required />
+
+          <label class="label">Email: </label>
+
+          <input class="fields" type="email" name="email" required />
+
           <label class="label">Create a Password: </label>
+
           <input
             class="fields"
             type="password"
@@ -33,6 +42,7 @@
             required
           />
           <label class="label">Confirm Password: </label>
+
           <input
             class="fields"
             type="password"
@@ -43,16 +53,21 @@
         </fieldset>
         <fieldset class="fieldsset-2">
           <label class="label"
-            ><input class="mr-2 fields" type="radio" name="account-type" /> Personal
-            Account</label
+            ><input class="radio-btn mr-2" type="radio" name="account-type" />
+            Personal Account</label
           >
           <label class="label"
-            ><input class="mr-2 fields" type="radio" name="account-type" /> Business
-            Account</label
+            ><input class="radio-btn mr-2" type="radio" name="account-type" />
+            Business Account</label
           >
-          <label class="mt-8 label">
-            <input class="mr-2 fields" type="checkbox" name="terms" required /> I
-            accept the
+          <label class="label">
+            <input
+              type="checkbox"
+              name="terms"
+              class="checkbox mr-2"
+              required
+            />
+            I accept the
             <a href="https://www.freecodecamp.org/news/terms-of-service/"
               >terms and conditions</a
             >
@@ -60,10 +75,7 @@
         </fieldset>
         <fieldset class="fieldset-3">
           <label class="label">Upload a profile picture: </label
-          ><input class="fields" type="file" name="file" />
-          <label class="label">Input your age (years): </label
-          ><input class="fields" type="number" name="age" min="13" max="120" />
-
+          ><input class="" type="file" name="file" />
           <label class="label">How did you hear about us?</label>
           <select name="referrer">
             <option value="">(select one)</option>
@@ -81,7 +93,11 @@
             placeholder="I like coding on the beach..."
           ></textarea>
         </fieldset>
-        <input type="submit" value="Submit" class="btn" />
+        <input
+          type="submit"
+          value="Submit"
+          class="btn bg-gradient-to-r from-indigo-500 to-pink-200"
+        />
         <p class="last-note">Already have an account? <a href="#">Log in</a></p>
       </form>
     </div>

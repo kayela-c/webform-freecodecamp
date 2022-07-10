@@ -1,3 +1,15 @@
+/* custom properties */
+
+:root {
+
+    --pink: #f9a8d4;
+    --purple: #7e22ce;
+    --indigo: #4338ca;
+    --zinc-d: #292524;
+    --zinc-l: #78716c;
+    --slate: #fee2e2;
+}
+
 
 body {
 
@@ -60,9 +72,9 @@ position: relative;
     /* bg-slate-50 */
     border: none;
     border-bottom: 2px solid #333;
-    -moz-background-color: transparent;
-    -webkit-background-color: transparent;
-    background-color: transparent;
+    -moz-background-color: transparent !important;
+    -webkit-background-color: transparent !important;
+    background-color: transparent !important;
     width: 100%;
 }
 
@@ -88,13 +100,22 @@ position: relative;
     font-size: 1.3rem;
 }
 
-/* .checkbox {
+.checkbox {
+    margin-right: 1rem;
+}
 
+.checkbox:hover {
+    background-color: red;
 }
 
 .radio-btn {
+    margin-right: 1rem;
+} 
 
-} */
+.browse {
+    margin-right: 1rem;
+    
+}
 
 .last-note {
     padding-bottom: 5rem;

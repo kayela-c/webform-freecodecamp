@@ -9,34 +9,44 @@
   <body class="p-0 m-0 mx-auto w-1/2 text-base">
     <div name="form-container" class="bg-slate-50 drop-shadow-2xl rounded-2xl m-2 px-8 pt-8 pb-2 box-border">
 
-      <h1 class="text-center">Registration Form</h1>
+      <h1 class="text-center text-2xl">Registration Form</h1>
       <p class="text-center py-4">Please fill out this form with the required information</p>
       
       <form action="https://register-demo.freecodecamp.org" class="">
         <fieldset>
-          <label class="">Enter Your First Name: </label
-          ><input type="text" class="" name="first-name" required />
-          <label>Enter Your Last Name: </label
-          ><input type="text" name="last-name" required />
-          <label>Enter Your Email: </label
-          ><input type="email" name="email" required />
-          <label>Create a New Password: </label>
+          <label class="text-zinc-400">First Name: </label
+          ><input type="text" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-400 w-full" name="first-name" required />
+          <label class="text-zinc-400">Last Name: </label
+          ><input type="text" name="last-name" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-400 w-full" required />
+          <label class="text-zinc-400">Email: </label
+          ><input type="email" name="email" class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-400 w-full" required />
+          <label class="text-zinc-400">Create a Password: </label>
           <input
             type="password"
             name="password"
             pattern="[a-z0-5]{8,}"
+            class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-400 w-full"
+            required
+          />
+          <label>Confirm Password: </label>
+          <input
+            type="password"
+            name="password"
+            pattern="[a-z0-5]{8,}"
+            class="bg-slate-50 border-solid border-b-2 border-t-0 border-l-0 border-r-0 border-zinc-300 w-full"
             required
           />
         </fieldset>
         <fieldset>
           <label
-            ><input type="radio" name="account-type" /> Personal Account</label
+            ><input class="mr-2" type="radio" name="account-type" /> Personal Account</label
           >
           <label
-            ><input type="radio" name="account-type" /> Business Account</label
+            ><input class="mr-2" type="radio" name="account-type" /> Business Account</label
           >
-          <label>
-            <input type="checkbox" name="terms" class="" required /> I accept the
+          <label class="mt-8">
+            <input class="mr-2" type="checkbox" name="terms"
+            required /> I accept the
             <a href="https://www.freecodecamp.org/news/terms-of-service/"
               >terms and conditions</a
             >

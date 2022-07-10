@@ -45,7 +45,7 @@ width: 50%;
     /* position: absolute; */
     height: 10rem;
     width: 100%;
-    background-image: linear-gradient(to right, #fbcfe8, #8b5cf6); 
+    background-image: linear-gradient(to right, #8b5cf6, #fbcfe8); 
     z-index: 1;
     /* cover image in container */
 }

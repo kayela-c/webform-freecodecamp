@@ -94,8 +94,14 @@ width: 50%;
 } */
 
 .last-note {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
+    font-size: large;
+}
+
+.last-note a {
+    text-decoration: underline;
+    color: #8b5cf6;
 }
 
 /* .fieldset-1 {} */

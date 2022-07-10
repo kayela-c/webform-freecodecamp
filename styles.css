@@ -50,10 +50,46 @@ border-radius: 16px;
 margin: .5rem auto;
 /* box-border */
 z-index: -999;
-width: 50%;
+width: 95%;
 position: relative;
 
 }
+@media (min-width: 460px) {
+    .section-container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 640px) {
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1536px) {
+    .section-container {
+        width: 50%;
+    }
+}
+
 
 .container {
     padding: 0 2rem;

@@ -1,5 +1,17 @@
-body {
-    width: 50%;
-    margin: auto;
+label {
+    display: block;
 }
 
+
+body {
+    background-color: lightcoral;
+}
+
+label {
+    margin: 1rem 0;
+}
+
+input {
+    border-style: none;
+    width: 100%;
+}

@@ -38,16 +38,12 @@ padding: 2rem 2rem .5rem 2rem;
 /* box-border */
 z-index: -1;
 width: 50%;
-/* position: relative; */
 
 }
 
 .accent-img-div {
-    /* position: absolute; */
     height: 10rem;
     width: 100%;
-    /* background-color: #8b5cf6; */
-    /* #fbcfe8 */
     z-index: 1;
     /* cover image in container */
 }
@@ -55,9 +51,8 @@ width: 50%;
 .fields {
     /* bg-slate-50 */
     border: none;
-    border-bottom: 2px solid #333;
-    background-color: #f8fafc;
-    /* border-color: zinc-300; */
+    border-bottom: 2px solid #d4d4d8;
+    background-color: transparent;
     width: 100%;
 }
 

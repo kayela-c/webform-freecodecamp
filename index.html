@@ -23,20 +23,20 @@
         <fieldset class="fieldset-1">
           <label class="label">First Name: </label>
 
-          <input class="fields" type="text" name="first-name" required />
+          <input class="fields required:border-red-500" type="text" name="first-name" required />
 
           <label class="label">Last Name: </label>
 
-          <input class="fields" type="text" name="last-name" required />
+          <input class="fields required:border-red-500" type="text" name="last-name" required />
 
           <label class="label">Email: </label>
 
-          <input class="fields" type="email" name="email" required />
+          <input class="fields required:border-red-500" type="email" name="email" required />
 
           <label class="label">Create a Password: </label>
 
           <input
-            class="fields"
+            class="fields required:border-red-500"
             type="password"
             name="password"
             pattern="[a-z0-5]{8,}"
@@ -45,7 +45,7 @@
           <label class="label">Confirm Password: </label>
 
           <input
-            class="fields"
+            class="fields required:border-red-500"
             type="password"
             name="password"
             pattern="[a-z0-5]{8,}"
@@ -75,7 +75,7 @@
               </select>
               
             </fieldset>
-            <label class="label mb-6">
+            <label class="label mb-6 required:border-red-500">
               <input
                 type="checkbox"
                 name="terms"

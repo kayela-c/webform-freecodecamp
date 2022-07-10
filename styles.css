@@ -1,13 +1,87 @@
-label {
-    display: block;
-}
-
 
 body {
     background-color: lightcoral;
+    margin: 0 auto;
+    padding: 0;
+    color: gray;
+    /* tailwind zinc-600 */
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
-label {
+.block-label {
     margin: 1rem 0;
 }
 
+.form {
+    background-color: aquamarine;
+}
+
+.form-container {
+/* dropshadow */
+/* bg-slate-50 */
+border-radius: 16px;
+margin: .5rem;
+padding: 2rem 2rem .5rem 2rem;
+/* box-border */
+z-index: -1;
+width: 50%;
+position: relative;
+background-color: blueviolet;
+}
+
+.accent-img-div {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    /* cover image in container */
+}
+
+.fields {
+    /* bg-slate-50 */
+    border: none;
+    border: 2px solid gray;
+    /* border-color: zinc-300; */
+    width: 100%;
+    display: block;
+}
+
+.label {
+    color: #333;
+}
+
+.btn {
+    border-radius: 50%;
+    /* gradient from purple to pink */
+    background: red;
+    padding: .5rem 1rem;
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+}
+
+/* .checkbox {
+
+}
+
+.radio-btn {
+
+} */
+
+.last-note {
+    margin-bottom: 4rem;
+    text-align: cente;
+}
+
+/* .fieldset-1 {}
+
+.fieldset-2 {}
+
+.fieldset-3 {}
+
+.textarea {} */

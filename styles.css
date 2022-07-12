@@ -1,3 +1,15 @@
+/* custom properties */
+
+:root {
+
+    --pink: #f9a8d4;
+    --purple: #7e22ce;
+    --indigo: #4338ca;
+    --zinc-d: #292524;
+    --zinc-l: #78716c;
+    --slate: #fee2e2;
+}
+
 
 body {
 
@@ -5,7 +17,6 @@ body {
     padding: 0;
     background-color: #fee2e2;
     color: #292524;
-    /* tailwind zinc-600 */
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -23,6 +34,9 @@ body {
     text-transform: capitalize;
 }
 
+.para-1 {
+    margin-top: 5rem;
+}
 
 .icon {
     text-align: center;
@@ -30,36 +44,80 @@ body {
     font-size: 3rem;
 }
 
-.form-container {
+.section-container {
 background-color: #f8fafc;
 border-radius: 16px;
 margin: .5rem auto;
-padding: 2rem 2rem .5rem 2rem;
 /* box-border */
-z-index: -1;
-width: 50%;
+z-index: -999;
+width: 95%;
+position: relative;
 
 }
+@media (min-width: 460px) {
+    .section-container {
+        width: 90%;
+    }
+}
 
-.accent-img-div {
-    height: 10rem;
+@media (min-width: 640px) {
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1536px) {
+    .section-container {
+        width: 50%;
+    }
+}
+
+
+.container {
+    padding: 0 2rem;
+}
+
+.img-div {
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    height: 15%;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
     /* cover image in container */
 }
 
 .fields {
     /* bg-slate-50 */
     border: none;
-    border-bottom: 2px solid #d4d4d8;
-    background-color: transparent;
+    border-bottom: 2px solid #333;
+    -moz-background-color: transparent !important;
+    -webkit-background-color: transparent !important;
+    background-color: transparent !important;
     width: 100%;
 }
 
 .label {
 
     display: block;
-    margin: 1.5rem 0 0 0;
+    margin: 2.5rem 0 1rem;
     color: #78716c;
 }
 
@@ -78,30 +136,31 @@ width: 50%;
     font-size: 1.3rem;
 }
 
-/* .checkbox {
+.checkbox {
+    margin-right: 1rem;
+}
 
+.checkbox:hover {
+    background-color: red;
 }
 
 .radio-btn {
+    margin-right: 1rem;
+} 
 
-} */
+.browse {
+    margin-right: 1rem;
+    
+}
 
 .last-note {
-    margin-bottom: 2rem;
+    padding-bottom: 5rem;
     text-align: center;
     font-size: large;
 }
 
-
-
-/* .fieldset-1 {} */
-
-/* .fieldset-2 {} */
-
-/* .fieldset-3 {} */
-
-/* .textarea {
-
-}  */
+.link {
+    cursor: pointer;
+}
 
 
